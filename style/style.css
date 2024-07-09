@@ -36,7 +36,7 @@
 /* header is starting...  */
 header{
     height: 640px;
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -165,4 +165,50 @@ header .header-info-container p{
 }
 .why-web-dev .segment-div .segment-3 .text h1{
     color: #0d1321ab;
+}
+
+
+
+
+/* my inspiration section is starting */
+
+.my-inspiration{
+    margin: 0px 150px;
+    /* background-color: lightgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.my-inspiration .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 65%;
+    gap: 20px;
+}
+.my-inspiration .text h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+.my-inspiration .text p{
+    font-size: 16px;
+    color: #0d132194;
+}
+.my-inspiration .vdo{
+    /* background-color: yellow; */
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid #0d132141;
+}
+.my-inspiration .vdo iframe{
+    width: 100%;
+    border-radius: 16px;
 }
