@@ -21,6 +21,15 @@
     border: none;
     cursor: pointer;
 }
+.btn-light{
+    padding: 12px 20px;
+    font-size: 20px;
+    color: #0d132194;
+    border: 1px solid rgba(13, 19, 33, 0.700);
+    cursor: pointer;
+    background-color: transparent;
+    font-weight: 600;
+}
 
 
 
@@ -56,3 +65,104 @@ header .header-info-container p{
 
 
 
+/* why-web-dev section is starting...  */
+.why-web-dev{
+    background-color: rgba(13, 19, 33, 0.020);
+    margin: 70px 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 80px 95px;
+}
+.why-web-dev .title-div h1{
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+.why-web-dev .title-div p{
+    font-size: 16px;
+    color: #0d132194;
+    font-weight: 400;
+    text-align: center;
+}
+
+.why-web-dev .segment-div{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.why-web-dev .segment-div .segment-1{
+    display: flex;
+    /* background-color: lightcoral; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: linear-gradient(90deg,
+    white 20%,
+    rgba(255, 255, 255, 0.137) 100%);
+}
+.why-web-dev .segment-div .segment-1 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+    color: #0d132194;
+    width: 50%;
+}
+.why-web-dev .segment-div .segment-1 .text h1{
+    color: #0d1321ab;
+}
+
+
+
+.why-web-dev .segment-div .segment-2{
+    display: flex;
+    /* background-color: lightcoral; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: linear-gradient(-90deg,
+    white 20%,
+    rgba(255, 255, 255, 0.137) 100%);
+}
+.why-web-dev .segment-div .segment-2 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+    color: #0d132194;
+    width: 60%;
+}
+.why-web-dev .segment-div .segment-2 .text h1{
+    color: #0d1321ab;
+}
+
+
+
+.why-web-dev .segment-div .segment-3{
+    display: flex;
+    /* background-color: lightcoral; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: linear-gradient(90deg,
+    white 20%,
+    rgba(255, 255, 255, 0.137) 100%);
+}
+.why-web-dev .segment-div .segment-3 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+    color: #0d132194;
+    width: 60%;
+}
+.why-web-dev .segment-div .segment-3 .text h1{
+    color: #0d1321ab;
+}
