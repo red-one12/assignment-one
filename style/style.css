@@ -24,7 +24,6 @@
 .btn-light{
     padding: 12px 20px;
     font-size: 20px;
-    color: #0d132194;
     border: 2px solid rgba(13, 19, 33, 0.541);
     cursor: pointer;
     background-color: transparent;
@@ -116,7 +115,10 @@ header .header-info-container p{
 .why-web-dev .segment-div .segment-1 .text h1{
     color: #0d1321ab;
 }
-
+.why-web-dev .segment-div .segment-1 .text a{
+    color: #0d132194;
+    text-decoration: none;
+}
 
 
 .why-web-dev .segment-div .segment-2{
@@ -140,6 +142,10 @@ header .header-info-container p{
 }
 .why-web-dev .segment-div .segment-2 .text h1{
     color: #0d1321ab;
+}
+.why-web-dev .segment-div .segment-2 .text a{
+    color: #0d132194;
+    text-decoration: none;
 }
 
 
@@ -166,7 +172,10 @@ header .header-info-container p{
 .why-web-dev .segment-div .segment-3 .text h1{
     color: #0d1321ab;
 }
-
+.why-web-dev .segment-div .segment-3 .text a{
+    color: #0d132194;
+    text-decoration: none;
+}
 
 
 
@@ -404,6 +413,7 @@ header .header-info-container p{
     border-radius: 8px;
     background-color: white;
     font-weight: 600;
+    cursor: pointer;
 }
 
 
