@@ -342,3 +342,63 @@ header .header-info-container p{
     color: black;
     font-weight: 800;
 }
+
+
+
+
+/* need suppor section starting...  */
+
+.need-support{
+    height: 315px;
+    margin: 80px 150px;
+    border-radius: 16px;
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.need-support .container{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.432);
+    border-radius: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}  
+.need-support .container h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+.need-support .container p{
+    font-size: 16px;
+    width: 60%;
+    text-align: center;
+    color: #ffffffa6;
+    font-weight: 200;
+}
+.need-support .container .input-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.need-support .container .input-div input{
+    padding: 18px 18px;
+    width: 50%;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+.need-support .container .input-div button{
+    padding: 16px 25px;
+    border: none;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: white;
+    font-weight: 600;
+}
