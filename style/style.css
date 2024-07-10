@@ -212,3 +212,70 @@ header .header-info-container p{
     width: 100%;
     border-radius: 16px;
 }
+
+
+
+
+/* current target section starting...  */
+
+.current-target{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 150px;
+}
+.current-target .text{
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+}
+.current-target .text h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.current-target .text p{
+    font-size: 16px;
+    color: #0d132194;
+    margin-bottom: 40px;
+}
+
+
+
+.current-target .cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.current-target .cards .card{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    background-color: rgba(255, 75, 30, 0.050);
+    gap: 10px;
+    padding: 20px 20px;
+    border-radius: 16px;
+}
+.current-target .cards .card h3{
+    font-size: 24px;
+    font-weight: 800;
+}
+.current-target .cards .card p{
+    color: #0d132194;
+}
+.current-target .cards .card a{
+    color: black;
+    font-weight: 800;
+}
+
+
+.current-target .cards .card2{
+    background-color: rgba(0, 77, 232, 0.050);
+}
+.current-target .cards .card3{
+    background-color: rgba(255, 221, 0, 0.050);
+}
